@@ -1,4 +1,6 @@
 import PIL
+import os
+print(f'Files in Current directory {os.listdir()}')
 
 # ascii characters used to build the output text
 ASCII_CHARS = ["@", "#", "S", "%", "?", "*", "+", ";", ":", ",", "."]
